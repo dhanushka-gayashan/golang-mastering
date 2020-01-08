@@ -1,0 +1,6 @@
+./test/test1/
+	test11/
+	test12/
+./test/test2/
+	test21/
+	test22/

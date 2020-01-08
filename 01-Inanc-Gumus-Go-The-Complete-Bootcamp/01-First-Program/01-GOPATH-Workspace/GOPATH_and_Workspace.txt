@@ -1,0 +1,16 @@
+> Command for get GOPATH
+    - go env GOPATH
+
+> Go to GO Directory
+    - cd ~/go
+
+> Create Project / Workspace
+    - cd src
+    - mkdir github.com
+    - cd github.com 
+    - mkdir <github_username>
+    - cd <github_username>
+    - mkdir <project_name>
+
+> Best Practice 
+    - Put all executable files in ~/GO/src

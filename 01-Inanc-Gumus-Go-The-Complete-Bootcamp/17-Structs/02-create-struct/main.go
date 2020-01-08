@@ -1,0 +1,27 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	type person struct {
+		name, lastname string
+		age            int
+	}
+
+	picasso := person{
+		name:     "Pablo",
+		lastname: "Picasso",
+		age:      91,
+	}
+
+	var freud person
+	freud.name = "Sigmund"
+	freud.lastname = "Freud"
+	freud.age = 83
+
+	fmt.Printf("%s's age is %d\n", picasso.lastname, picasso.age)
+
+	fmt.Printf("\nPicasso: %#v\n", picasso)
+	fmt.Printf("Freud  : %#v\n", freud)
+}

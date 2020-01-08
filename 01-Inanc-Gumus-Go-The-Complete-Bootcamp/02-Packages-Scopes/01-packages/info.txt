@@ -1,0 +1,33 @@
+> GO Documentation
+    - https://golang.org/pkg/
+
+> Package Rules
+    - All source files should be in one directory 
+    - All files should belongs to the same Package
+
+> Types of Packages
+    - Executable Package
+        - Executable 
+        - Cannot reuse 
+        - Have main function
+    - Library Packages
+        - Cannot Executle 
+        - Can reuse
+        - Importable
+
+> Run the Go Program with Multiple Files 
+    - Method 1
+        - go run .
+    
+    - Method 2
+        - go run *.go
+    
+    - Method 3
+        - go run *.*go
+
+    - Method 4
+        - go run <file1.go> <file.go> ...
+    
+    - Method 3
+        - go build
+        - ./<executable_file_name>

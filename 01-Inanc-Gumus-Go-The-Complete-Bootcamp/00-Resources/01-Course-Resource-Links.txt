@@ -1,0 +1,6 @@
+> GIT Repo
+	- https://github.com/inancgumus/learngo
+
+> Download Git Repo with GO 
+	- go get -u -d github.com/inancgumus/learngo
+	- Repo available in $GOPATH

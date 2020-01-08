@@ -1,0 +1,16 @@
+> Install VS Code
+
+> Install Golang
+
+> Configure VS Code
+	- Configure GO 
+		- Open VS Code
+		- Install GO Microsoft Extention
+		- Exit and Reopen VS Code
+		- View -> Command Plelle -> Go:Install/Update Tools -> Select All -> OK		 
+		
+	- Integrate VS Command Line to Terminal
+		- MacOS : View -> Command Plelle -> Shell Command: Install 'code' command in PATH -> Enter
+		- Windows : View -> Command Plelle -> Terminal: Select Default Shell -> Git Bash 
+		
+		

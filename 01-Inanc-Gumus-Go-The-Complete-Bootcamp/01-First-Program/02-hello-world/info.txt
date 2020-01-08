@@ -1,0 +1,25 @@
+> Basic Language Features Tour
+    - https://tour.golang.org/welcome/1
+
+> Developing Env Run
+    - Run GO Application
+        - go run <go_file_name.go>
+
+    - Get more information about Run GO Command
+        - go run -x <go_file_name.go>
+
+> Production Env Run
+    - Build the GO Project
+        - go build 
+
+    - Execute GO Executable File
+        - ./<file_name>
+
+> Build GO Executable File for different OS
+    -OS
+        - OSX : GOOS=darwin GOARCH=386 go build
+        - Windows : GOOS=windows GOARCH=386 go build
+        - Linux : GOOS=linux GOARCH=arm GOARM=7 go build
+
+    - More information : 
+        - https://golang.org/doc/install/source#environment

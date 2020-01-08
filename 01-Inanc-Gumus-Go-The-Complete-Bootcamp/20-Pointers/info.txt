@@ -1,0 +1,36 @@
+> Pointer:
+    - A Pointer stores the memory address of a value
+
+> &
+    - Finds the address
+
+> *
+    - Finds the value
+
+> *Type
+    - Denotes a Pointer Type
+
+===============================================================
+Variable Type   :       Pointer         Byte (1 Memory Slot on RAM)             Byte
+Variable Name   :       P               counter                                 V
+Value           :       6               100                                     100
+Memory Address  :   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+Address of the Variable
+    - &counter -> 6
+
+Store Memory Address in a "Pointer" Variable
+    - P := &counter (store 6)
+
+Pointer Type of "P"
+    - *byte
+    - because it's stored memory address of Byte Variable
+    - var P *byte = &counter (store 6)
+
+Get the Value of Byte Variable from the Pointer
+    - *P -> 100
+    - V := *P ( return 100)
+        - * is indirectional operator
+
+Change the value of counter variable from Pointer variable
+    *P = 200 (counter == 200)

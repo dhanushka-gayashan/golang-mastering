@@ -1,0 +1,25 @@
+> Package only resposible for one or few activities
+
+> main file name should be main package name 
+    - package name : printer 
+    - main file name : printer.go
+
+> Names of Export Functions should be start with Upper Case Letter
+
+> Compile the package 
+    - go build
+
+> Package only compilable.It is not executable
+
+> Install package in "GOPATH"
+    - Command
+        - go install
+    - Check the installed package in "GOPATH"
+        - List directory 
+            - ls ~/go/pkg/windows_amd64/github.com/dhanukdg/Golang-Udemy-Inanc-Gumus-Go-The-Complete-Bootcamp/04-First-Library-Package/
+            - "windows_amd64" will change base on the OS
+        - You can see the file "printer.a" 
+            - "a" means Archive
+
+> Create executable files inside packages
+    - Executable files need to be exist inside of "cmd" directory of the package directory

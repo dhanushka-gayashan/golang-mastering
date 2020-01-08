@@ -1,0 +1,44 @@
+> Composite Types are Unnamed types
+
+> Underlying Type of Unnamed Types are itself
+    - [5]int -> underlying type -> [5]int -> not int
+
+------------------------------------------------------------
+
+type blue [5]int
+
+a := [5]int{}
+b := blue{}
+a == b -> true (underlying type is "[5]int")
+-----------------------------------------------------------
+
+type (
+    blue [5]int
+    red  [5]int
+)
+
+a := blue{}
+b := red{}
+a == b -> false (underlying types are different. a : blue and b : red)
+----------------------------------------------------------------------
+
+type (
+    blue [5]int
+    red  [5]int
+)
+
+a := blue{}
+b := red{}
+red(a) == b -> true (underlying type is "red")
+-----------------------------------------------------------------------
+
+type (
+    integer int
+
+    blue [5]int
+    red [5]integer
+)
+
+a := blue{}
+b := red{}
+a == b -> false (because underlying types are different. a : [5]int and b : [5]integer)

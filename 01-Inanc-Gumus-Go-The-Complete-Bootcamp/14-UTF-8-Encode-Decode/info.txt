@@ -1,0 +1,21 @@
+> %s : Prints []bytes as String
+
+> %c : Prints a Rune as a Character
+
+> %x : Prints the Bytes of a String in Hexadecimal notation
+
+> % x like %x : But prints the bytes with spaces
+
+> for - range : Jumps over the runes in a String
+
+> aString[index] : Returns a Byte
+
+> aString[start:stop] : Returns a String
+
+> rune(aString) : Returns a Rune slice by putting the Runes inside the String
+
+> string(anInteger) : Returns a String by UTF-8 encoding the Integer
+
+> byteSlice = append(byteSlice, aString...) : You can append a String to a Byte Slice
+
+> UTF8 and Unicode packages contain helper functions for working with Runes

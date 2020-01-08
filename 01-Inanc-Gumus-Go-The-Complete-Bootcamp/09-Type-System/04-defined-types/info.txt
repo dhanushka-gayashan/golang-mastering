@@ -1,0 +1,7 @@
+type Duration int64
+
+type MyDuration Duration
+
+type MoreDuration MyDuration
+
+"Underlaying Type" of all 3 Named-Types/Defined-Types is int64
