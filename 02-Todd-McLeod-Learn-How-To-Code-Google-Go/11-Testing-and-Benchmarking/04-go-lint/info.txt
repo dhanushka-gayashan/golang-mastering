@@ -1,0 +1,6 @@
+> Get Go Lint
+    - go get -u github.com/golang/lint/golint
+
+> Linting the code
+    - Run this from Root directory
+        - golint ./...

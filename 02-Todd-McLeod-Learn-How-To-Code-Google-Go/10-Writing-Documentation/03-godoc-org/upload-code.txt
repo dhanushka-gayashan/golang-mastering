@@ -1,0 +1,13 @@
+> Push code to your github repo
+
+> Goto godoc.org
+
+> Copy and Past the URL of the github repo on search bar of godoc.org
+
+> Click on Search
+
+> You can see the documentation of your repo
+
+> Search for any package of your repo on godoc.org
+
+> If you delete the repo from github, godoc.org no longer able to show your doc on godoc.org
